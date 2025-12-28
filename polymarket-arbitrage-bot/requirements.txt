@@ -1,0 +1,12 @@
+# Polymarket Arbitrage Bot Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Polymarket trading client (required for trade execution)
+py-clob-client>=0.1.0
+
+# Optional: For better decimal handling
+# decimal is part of Python standard library
